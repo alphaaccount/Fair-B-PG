@@ -21,13 +21,18 @@ Fair-B/Fair-B_Original/ContinuousFairness_NDCG/src_age_gender_bin/LPPG1.py files
 3. To run a particular case make sure to set the correct path for the following files in the end of the QPPG*.py files for a particular dataset 'X'.
 
  Dataset        (Sensitive Attribute)                        Processesed File (a)                                Edge File (b)
+ 
  Pokec-z            (Gender,Age)                            allPokec_age_gender_bins2.csv                      pokec-z_edge.csv
+ 
                     (Region,Age)                            allPokec_region_age.csv                                  -do-
+                    
                     (Gender, Region)                        allPokec_gender_region.csv                               -do-
+                    
                     (Gender)                                allPokec_age_gender_bins2.csv                            -do-
+                    
                     (Age)                                   allPokec_age_gender_bins2.csv                            -do-
-                    (Region)                                allPokec_region_age.csv                                  -do-
-NBA                 (Country,Age)                           allNBA_country_age.csv                             nba_edge.csv
+                    (Region)                                allPokec_region_age.csv                                  -do- \\
+NBA                 (Country,Age)                           allNBA_country_age.csv                             nba_edge.csv \\
                     (Country)                               allNBA_country_age.csv                                   -do-
                     (Age)                                   allNBA_country_age.csv                                   -do-
 Political Blogs     (Political Party)                       allpolblog_party.csv                               pol-blog_edge.csv
