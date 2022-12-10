@@ -56,9 +56,12 @@ Twitter
                     
  4. To run a particular GNN algorithm and (unfair) generate embeddings 
  
-    python run_graph_embedding2.py      --epochs=800      --dataset=[dataset_name]     --model=[model_name]     --debias_method=none    --debias_attr=[sensitive_attribute]
+ 
+          python run_graph_embedding2.py      --epochs=800      --dataset=[dataset_name]     --model=[model_name]     --debias_method=none    --debias_attr=[sensitive_attribute]
 
-    where dataset = [pokec-z,nba,pol-blog,twitter,cora]
+    where 
+    
+          dataset = [pokec-z,nba,pol-blog,twitter,cora]
     
           model_name = [gcn,gat,node2vec,sage,sgc]
           
