@@ -1,8 +1,10 @@
 # Fair-B-PG
 
-All the data files are post processed data files along with the embeddings of different baselines is available at
+All the data files are post processed data files along with the embeddings of different baselines is available at 
+https://drive.google.com/drive/folders/1jPuqA3_DR4dIPtwckNy7FIVzJdQ329uS?usp=share_link
 
 All the preproccesed data files needed for model training for various datasets is available at 
+
 
 Our main algorithms are at: 
 
