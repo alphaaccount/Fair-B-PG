@@ -54,7 +54,7 @@ Twitter
 
                     (Political Opinion)                     alltwitter_opinion.csv                             twitter_edge.csv
                     
- 4. To run a particular GNN algorithm and (unfair) generate embeddings 
+ 4. To run a particular GNN algorithm and (unfair) generate embeddings based on UGE [https://github.com/MyTHWN/UGE-Unbiased-Graph-Embedding]
  
  
           python run_graph_embedding2.py      --epochs=800      --dataset=[dataset_name]     --model=[model_name]     --debias_method=none    --debias_attr=[sensitive_attribute]
