@@ -66,7 +66,6 @@ Twitter
           model_name = [gcn,gat,node2vec,sage,sgc]
           
           SENSITIVE_Attributes = { pokec-z: [gender, region, AGE],
-                                   pokec-n: [gender, region, AGE],
                                    pol-blog :[party],
                                    dblp:[continent],
                                    twitter:[opinion],
